@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    max-width: 1440px;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', Sans-serif;
+}
+
+/* Conteúdo */
+
+img{
+    
+}
+
+h1{
+    margin-top: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    font-family: 'Big Shoulders Display'
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    line-height: 23px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Links */
+.botao{
+    background-color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.laranja{
+    color:hsl(31, 77%, 52%);
+}
+.azul{
+    color:hsl(184, 100%, 22%);
+}
+.verde{
+    color:hsl(179, 100%, 13%);
+}
+
+.botao:hover{
+    transition: 0.2s;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color:transparent;
+}
+
+
+
+/* Container em Geral */
+.container{
+    position: relative;
+    width:fit-content;
+    height: 470px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+   
+}
+
+.content{
+    position: relative;
+    float: left;
+    margin: 0;
+    max-width: 210px;
+    padding: 50px;
+
+}
+
+.sedans{
+    background-color:hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
