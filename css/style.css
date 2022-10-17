@@ -22,7 +22,7 @@ h1{
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
     font-size: 40px;
-    font-family: 'Big Shoulders Display'
+    font-family: 'Big Shoulders Display';
 }
 
 p{
@@ -95,4 +95,66 @@ p{
 .luxury{
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 10px 10px 0;
+}
+
+@media (max-width: 720px) {
+    body{
+        position: relative;
+        
+        height: 600px;
+        background-color: hsl(0, 0%, 95%);
+        font-size: 15px;
+        font-family: 'Lexend Deca', Sans-serif;
+    }
+
+    .container{
+        position: relative;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+       
+    }
+
+    .content{
+        clear: both;
+        position: relative;
+        margin: 0;
+        max-width: 230px;
+        padding: 50px;
+    
+    }
+
+    p{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        line-height: 23px;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    .botao{
+        font-size: 17px;
+        background-color: white;
+        padding: 15px 25px 15px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+
+    
+.sedans{
+    background-color:hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
 }
